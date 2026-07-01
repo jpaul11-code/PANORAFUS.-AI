@@ -49,6 +49,19 @@ To view the community growth outreach strategy:
 panorafus-ai engagement-strategy
 ```
 
+## CI/CD and Deployment
+
+GitHub Actions workflow is defined at `.github/workflows/main.yml`.
+
+Pipeline behavior:
+
+- Runs CLI validation on pull requests and pushes to `main`
+- Builds Python distribution artifacts after validation succeeds
+- Deploys to PyPI only on version tags matching `v*`
+
+Before using deployment, configure repository environment protections for `pypi`
+and set up PyPI trusted publishing for this repository.
+
 ## Project Structure
 
 ```text
