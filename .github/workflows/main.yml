@@ -37,6 +37,9 @@ jobs:
       - name: Run CLI info command
         run: panorafus-ai info
 
+      - name: Run CLI help command
+        run: panorafus-ai --help
+
       - name: Run engagement strategy command
         run: panorafus-ai engagement-strategy
 
