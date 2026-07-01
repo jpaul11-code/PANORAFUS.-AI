@@ -43,6 +43,12 @@ PANORAFUS.AI v0.1.0
 Status: bootstrap complete
 ```
 
+To view the community growth outreach strategy:
+
+```bash
+panorafus-ai engagement-strategy
+```
+
 ## Project Structure
 
 ```text
@@ -72,3 +78,15 @@ Current milestone: `Bootstrap`
 - [ ] Panorama fusion pipeline
 - [ ] AI enhancement stack
 - [ ] Automated test suite
+
+## Engagement Strategy Command
+
+Use `panorafus-ai engagement-strategy` to print a structured growth plan that
+covers:
+
+- Target groups (readers, visitors, subscribers, participants, vendors)
+- Tailored encouragement focus for each group
+- Outreach channels
+- Participation funnel
+- Core engagement metrics
+- Monthly review cycle
