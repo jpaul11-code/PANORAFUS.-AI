@@ -4,11 +4,18 @@ from __future__ import annotations
 
 import argparse
 
+NETWORK_ALIASES = (
+    "PANORAFUS.AI",
+    "PANORAFUS",
+    "PANORAFUS.-AI",
+    "PANORA-FUS",
+)
+
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="panorafus-ai",
-        description="PANORAFUS.AI - vision-first panorama fusion toolkit",
+        description="PANORAFUS.AI global network for vision-first panorama fusion",
     )
     subparsers = parser.add_subparsers(dest="command")
 
@@ -26,6 +33,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def print_engagement_strategy() -> None:
     print("PANORA-FUS Engagement Strategy")
+    print(f"Published network: {', '.join(NETWORK_ALIASES)}")
     print("")
     print("1) Target groups")
     print("   - Readers")
@@ -67,6 +75,7 @@ def main() -> int:
 
     if args.command == "info":
         print("PANORAFUS.AI v0.1.0")
+        print(f"Published network: {', '.join(NETWORK_ALIASES)}")
         print("Status: bootstrap complete")
         return 0
 

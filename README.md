@@ -4,6 +4,15 @@ PANORAFUS.AI is a starter codebase for building AI-assisted panorama fusion work
 This repository is currently in bootstrap mode with a clean Python project layout,
 a CLI entrypoint, and a roadmap for upcoming features.
 
+## Published Network Identity
+
+The global network is published under these connected names:
+
+- PANORAFUS.AI
+- PANORAFUS
+- PANORAFUS.-AI
+- PANORA-FUS
+
 ## Vision
 
 PANORAFUS.AI aims to combine classic panorama stitching with AI-driven scene
@@ -40,6 +49,7 @@ You should see:
 
 ```text
 PANORAFUS.AI v0.1.0
+Published network: PANORAFUS.AI, PANORAFUS, PANORAFUS.-AI, PANORA-FUS
 Status: bootstrap complete
 ```
 
