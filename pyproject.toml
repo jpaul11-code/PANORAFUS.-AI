@@ -5,13 +5,27 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "panorafus-ai"
 version = "0.1.0"
-description = "PANORAFUS.AI / PANORAFUS / PANORA-FUS global panorama fusion network"
+description = "AI-assisted panorama fusion app for image stitching, seam blending, and quality enhancement"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
   { name = "PANORAFUS.AI Contributors" }
 ]
+keywords = [
+  "panorama",
+  "panorama fusion",
+  "ai panorama stitching",
+  "image alignment",
+  "seam optimization",
+  "exposure balancing",
+  "computer vision",
+]
 dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
 
 [project.scripts]
 panorafus-ai = "panorafus_ai.cli:main"
@@ -21,3 +35,7 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

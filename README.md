@@ -4,6 +4,36 @@ PANORAFUS.AI is a starter codebase for building AI-assisted panorama fusion work
 This repository is currently in bootstrap mode with a clean Python project layout,
 a CLI entrypoint, and a roadmap for upcoming features.
 
+## Official Meaning and Description
+
+### Meaning
+
+PANORAFUS means Panorama Fusion: combining multiple photos into one seamless wide
+scene, with AI-assisted improvements for alignment, blending, and visual quality.
+
+### Canonical Description
+
+PANORAFUS.AI is an AI-assisted panorama fusion app for stitching multi-shot images
+into high-quality panoramic results.
+
+### Extended Description
+
+PANORAFUS.AI combines classical panorama stitching with AI-guided enhancement.
+The platform focuses on robust image alignment, smooth seam blending, exposure
+balancing, and practical workflow tooling through a CLI-first architecture.
+
+### Search and Discovery Keywords
+
+- PANORAFUS.AI
+- PANORAFUS
+- PANORAFUS.-AI
+- PANORA-FUS
+- panorama fusion
+- AI panorama stitching
+- image alignment
+- seam optimization
+- exposure balancing
+
 ## Published Network Identity
 
 The global network is published under these connected names:
@@ -71,6 +101,14 @@ Pipeline behavior:
 
 Before using deployment, configure repository environment protections for `pypi`
 and set up PyPI trusted publishing for this repository.
+
+## Google Discovery Notes
+
+- Use PANORAFUS.AI as the primary public name in titles and descriptions.
+- Keep PANORAFUS.-AI and PANORA-FUS as aliases for brand consistency.
+- Publish the same canonical description on all public profiles and pages.
+- If search visibility is low, submit your public project URL in Google Search
+	Console and wait for indexing.
 
 ## Project Structure
 
