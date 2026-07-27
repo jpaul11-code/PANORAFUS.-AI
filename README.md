@@ -89,6 +89,12 @@ To view the community growth outreach strategy:
 panorafus-ai engagement-strategy
 ```
 
+To learn about Abraham, the Father of Faith:
+
+```bash
+panorafus-ai abraham
+```
+
 ## CI/CD and Deployment
 
 GitHub Actions workflow is defined at `.github/workflows/main.yml`.
@@ -151,3 +157,15 @@ covers:
 - Participation funnel
 - Core engagement metrics
 - Monthly review cycle
+- Faith Anchor: Abraham, Father of Faith
+
+## Abraham Command
+
+Use `panorafus-ai abraham` to display a profile of Abraham as the Father of
+Faith, covering:
+
+- The Call — leaving the known for an unknown promise
+- The Promise — descendants as numerous as the stars
+- The Covenant — everlasting relationship of trust
+- The Test — faith demonstrated through obedience
+- The Legacy — spiritual ancestor of all who walk by faith
