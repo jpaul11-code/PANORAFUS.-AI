@@ -95,6 +95,12 @@ To learn about Abraham, the Father of Faith:
 panorafus-ai abraham
 ```
 
+To print a publish-ready Creator and Redeemer layout page:
+
+```bash
+panorafus-ai creator-redeemer-layout
+```
+
 ## CI/CD and Deployment
 
 GitHub Actions workflow is defined at `.github/workflows/main.yml`.

@@ -39,3 +39,17 @@ def test_no_command_prints_help(capsys, monkeypatch) -> None:
 
     assert exit_code == 0
     assert "usage:" in captured.out.lower()
+
+
+def test_creator_redeemer_layout_command_prints_publish_content(
+    capsys, monkeypatch
+) -> None:
+    monkeypatch.setattr(sys, "argv", ["panorafus-ai", "creator-redeemer-layout"])
+
+    exit_code = cli.main()
+    output = capsys.readouterr().out
+
+    assert exit_code == 0
+    assert "Creator and Redeemer: One Faithful God" in output
+    assert "What God began in creation, He completes in redemption." in output
+    assert "Hashtags: #PANORAFUSAI #Theology #Eschatology" in output
