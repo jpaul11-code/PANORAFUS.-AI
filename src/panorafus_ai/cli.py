@@ -34,6 +34,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     abraham_parser.set_defaults(command="abraham")
 
+    layout_parser = subparsers.add_parser(
+        "creator-redeemer-layout",
+        help="Show a publish-ready Creator and Redeemer layout page",
+    )
+    layout_parser.set_defaults(command="creator-redeemer-layout")
+
     return parser
 
 
@@ -116,6 +122,24 @@ def print_engagement_strategy() -> None:
     print("   - Remind subscribers: every step of faithful engagement builds legacy.")
 
 
+def print_creator_redeemer_layout() -> None:
+    print("Creator and Redeemer: One Faithful God")
+    print("What God began in creation, He completes in redemption.")
+    print("")
+    print("The God who made us is the God who will not abandon us.")
+    print("From the first page of Scripture to the final promise, God is faithful—")
+    print("creating, healing, and restoring.")
+    print("")
+    print("The end of the story is not God discarding creation, but renewing it.")
+    print("Eschatology is hope: God finishes what He starts.")
+    print("His final word is not ruin, but restoration.")
+    print("")
+    print(
+        "Hashtags: #PANORAFUSAI #Theology #Eschatology #Creation "
+        "#Redemption #NewCreation #ChristianHope #Faith #BiblicalTruth"
+    )
+
+
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
@@ -132,6 +156,10 @@ def main() -> int:
 
     if args.command == "abraham":
         print_abraham()
+        return 0
+
+    if args.command == "creator-redeemer-layout":
+        print_creator_redeemer_layout()
         return 0
 
     parser.print_help()
