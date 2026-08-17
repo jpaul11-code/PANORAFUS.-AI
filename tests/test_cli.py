@@ -52,4 +52,4 @@ def test_creator_redeemer_layout_command_prints_publish_content(
     assert exit_code == 0
     assert "Creator and Redeemer: One Faithful God" in output
     assert "What God began in creation, He completes in redemption." in output
-    assert "#PANORAFUSAI #Theology #Eschatology" in output
+    assert "Hashtags: #PANORAFUSAI #Theology #Eschatology" in output
